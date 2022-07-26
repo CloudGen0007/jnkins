@@ -1,0 +1,10 @@
+---
+# tasks file for jenkins
+- include_tasks: git.yml
+- include_tasks: vim.yml
+- include_tasks: wget.yml
+- include_tasks: java.yml
+- include_tasks: tomcat.yml
+- include_tasks: jwar.yml
+- include_tasks: git.yml
+

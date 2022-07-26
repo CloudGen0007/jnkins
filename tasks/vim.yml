@@ -1,0 +1,6 @@
+---
+- name: Installation of vim
+  yum:
+    name: vim
+    state: latest
+
